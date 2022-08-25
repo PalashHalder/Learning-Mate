@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    tools:context=".SplashActivity">
+
+
+
+    <LinearLayout
+        android:id="@+id/text"
+        android:layout_marginBottom="20dp"
+        android:layout_width="200dp"
+        android:layout_height="40dp">
+        <TextView
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="Learning Mate"
+            android:textAlignment="center"
+            android:textSize="25dp"
+            android:textColor="@color/purple_700"
+            android:textStyle="bold"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_below="@+id/text"
+        android:id="@+id/one"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="@color/black"
+        android:orientation="horizontal" >
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/icon" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_below="@+id/text"
+        android:id="@+id/two"
+        android:layout_toEndOf="@+id/one"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="@color/purple_500"
+        android:orientation="horizontal">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/om" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_below="@+id/one"
+        android:id="@+id/three"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="@color/purple_200"
+        android:orientation="horizontal" >
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/om" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_below="@+id/two"
+        android:layout_toEndOf="@+id/three"
+        android:id="@+id/four"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="@color/teal_200"
+        android:orientation="horizontal" >
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/icon"
+            />
+    </LinearLayout>
+
+    <TextView
+        android:textAlignment="center"
+        android:textSize="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/four"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="Hello Developer"
+        android:textStyle="bold"
+        android:textColor="#FF5722"
+        />
+
+</RelativeLayout>
