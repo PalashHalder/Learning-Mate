@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CseitActivity">
+
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/btnAndroid"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="3dp"
+                android:layout_marginRight="10dp"
+                android:text="এন্ড্রয়েড প্রোগ্রামিং"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/btnDart"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_marginLeft="10dp"
+                android:layout_below="@id/btnAndroid"
+                android:layout_marginTop="3dp"
+                android:layout_marginRight="10dp"
+                android:text="ডার্ট প্রোগ্রামিং"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/btnJavaScript"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_below="@id/btnDart"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="3dp"
+                android:layout_marginRight="10dp"
+                android:minLines="1"
+                android:text="@string/btnJavaScript_Text"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/btnGraphic"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_below="@id/btnJavaScript"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="3dp"
+                android:layout_marginRight="10dp"
+                android:text="জাভা প্রোগ্রামিং"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/btnUi"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_below="@id/btnGraphic"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="3dp"
+                android:layout_marginRight="10dp"
+                android:text="আর প্রোগ্রামিং"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/btnPerosonalDev"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_below="@id/btnUi"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="3dp"
+                android:layout_marginRight="10dp"
+                android:text="সি++ প্রোগ্রামিং"
+                android:textSize="20sp" />
+
+
+
+            <Button
+                android:id="@+id/btnMERN"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_below="@id/btnPerosonalDev"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="3dp"
+                android:layout_marginRight="10dp"
+                android:text="মার্ন স্ট্যাক ডেভেলপমেন্ট"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/btnHero"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_below="@id/btnMERN"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="3dp"
+                android:layout_marginRight="10dp"
+                android:text="ঝংকার মাহবুব"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/btnProgramming"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_below="@id/btnHero"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="3dp"
+                android:layout_marginRight="10dp"
+                android:text="সি প্রোগ্রামিং"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/btnHacking"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_below="@id/btnProgramming"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="3dp"
+                android:layout_marginRight="10dp"
+                android:text="সাইবার সিকিউরিটি"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/btnYoga"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_below="@id/btnHacking"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="3dp"
+                android:layout_marginRight="10dp"
+                android:text="জীবনের জন্য যোগ"
+                android:textSize="20sp" />
+        </RelativeLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
